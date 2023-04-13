@@ -15,12 +15,9 @@ To run this you need to have python installed, and the library qrcode.
 If you wany to make it executable you can use the command pyinstaller.
 
 If you are using Anaconda, you can use these commands in the Anaconda Prompt: 
-
-#this adds library 
+# This adds library:
 conda install -c conda-forge qrcode
-
-#this installs pyinstaller
+# This installs pyinstaller:
 conda install -c anaconda pyinstaller
-
-#this compiles exe
+# This is optional, but needed if you want an exe-file. Compiles the exe-file:
 pyinstaller --onefile wifi_qrcode_generator.py
