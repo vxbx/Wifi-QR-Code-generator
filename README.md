@@ -22,4 +22,4 @@ conda install -c conda-forge qrcode
 # This installs pyinstaller:
 conda install -c anaconda pyinstaller
 # This is optional, but needed if you want an exe file. Compiles the exe file:
-pyinstaller --onefile wifi_qrcode_generator.py
+pyinstaller --onefile QR-code_generator.py
